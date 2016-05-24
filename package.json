@@ -1,6 +1,6 @@
 {
   "name": "react-native-socket.io-client",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "keywords": [
     "realtime",
     "framework",
@@ -71,7 +71,7 @@
       "name": "Einar Otto Stangvik",
       "email": "einaros@gmail.com"
     },
-     {
+    {
       "name": "Hilke Heremans",
       "email": "hilke@tsjing.eu"
     }
