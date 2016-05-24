@@ -23,10 +23,6 @@ serve the file `socket.io.js` found at the root of this repository.
 
 Socket.IO is compatible with [browserify](http://browserify.org/).
 
-### Node.JS (server-side usage)
-
-> Not supported in this version.
-
 ## API
 
 ### IO(url:String, opts:Object):Socket
