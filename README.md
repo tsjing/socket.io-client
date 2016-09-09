@@ -23,6 +23,21 @@ serve the file `socket.io.js` found at the root of this repository.
 
 Socket.IO is compatible with [browserify](http://browserify.org/).
 
+In order to use this in React Native you may need to polyfill as follows, close to the app's entry point. I'll integrate this into the library itself at a later point.
+
+```
+// workaround for React Native issues with some libraries (e.g. cuid, socket-io)
+if (global.navigator && global.navigator.product === 'ReactNative') {
+    global.navigator.mimeTypes = '';
+    try {
+        global.navigator.userAgent = 'ReactNative';
+    }
+    catch (e) {
+        console.log('Tried to fake useragent, but failed. This is normal on some devices, you may ignore this error: ' + e.message);
+    }
+}
+```
+
 ## API
 
 ### IO(url:String, opts:Object):Socket
