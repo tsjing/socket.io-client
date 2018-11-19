@@ -1,3 +1,10 @@
+# Unmaintained
+
+Please note that this fork is based on `socket.io v1`, which is not compatible with the current `2.x` releases.
+
+Also, since the organisation this resides under no longer exists, it will also no longer be updated.
+
+Sorry, you'll have to look elsewhere!
 
 # react-native-socket.io-client
 
